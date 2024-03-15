@@ -1,0 +1,328 @@
+body{
+    border: 0px;
+    margin: 0ch;
+}
+#div1{
+    background-color:rgb(129, 216,208);
+    display: flex;
+    justify-content:space-around;
+    height: 50px;
+    align-items: center;
+    border-color:rgb(129, 216,208) ;
+    
+}
+#word{
+    font-size:large;
+    font-style: italic;
+}
+#navbar{
+    height: 50px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+#navbar2{
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 50px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 15px;
+}
+#name{
+    font-weight:lighter;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+video{
+    object-fit: cover;
+    width: 1000px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.vedio_teaser{
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:left;
+}
+#discover{
+    font-weight: bold;
+    font-size: 30px;
+    border-color: black;
+    border-width: 5px;
+}.mothersday{
+    margin-left: 10px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items:center;
+    font-style: italic;
+}
+p2{
+    font-size: 30px;
+    font-weight: 600;
+    font-style: italic;
+}
+p3{
+    font-size: 15px;
+    font-weight: 400;
+    font-style:normal;
+}
+#day{
+    border-width: 10px;
+    border-color: black;
+}
+#img1{
+    width: 284px;
+    height:300px;
+    background-image:url(set1.webp);
+    background-size: contain;
+}
+#img1{
+    width: 284px;
+    height:300px;
+    background-image:url(set2.webp);
+    background-size: contain;
+}
+#img2{
+    width: 284px;
+    height:300px;
+    background-image:url(set4.webp);
+    background-size: contain;
+}
+#img3{
+    width: 284px;
+    height:300px;
+    background-image:url(set5.webp);
+    background-size: contain;
+}
+#img4{
+    width: 284px;
+    height:300px;
+    background-image:url(set6.webp);
+    background-size: contain;
+}
+.update{
+    margin-top: 80px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction:row;
+}
+.but1{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    /* background-color:rgb(129, 216,208) ; */
+    font-size: x-large;
+}
+.shopmothersday{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#shop{
+    height: 70px;
+    width: 300px;
+    /* background-color:rgb(129, 216,208) ; */
+    font-style: italic;
+    font-weight: bolder;
+    font-size: x-large;
+    border:2px solid black ;
+    /* border-radius: 40%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.ad1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    /* font-weight: bolder;
+    font-size: x-large;
+    font-style: italic; */
+}
+.ad2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+#nec1{
+    height: 600px;
+    width: 500px;
+    background-size: cover;
+    background-image:url(nec1.webp);
+}
+#nec2{
+    height: 600px;
+    width: 500px;
+    background-size: cover;
+    background-image:url(nec2.webp);
+}
+.shopnow{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    margin-top: 100px;
+}
+.most{
+    font-weight:bold;
+    font-size: x-large;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+p4{
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.combine{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#c1{
+    background-image:url(c1.webp) ;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+#c2{
+    background-image: url(Rings_c2.webp);
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+#c3{
+    background-image: url(Earrings_c3.webp);
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+#c4{
+    background-image: url(Bracelet_c4.webp);
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+#c5{
+    background-image: url(EngagementRings_c5.webp);
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+#c6{
+    background-image: url(HomeDecor_c6.webp);
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+#shopbycategory{
+    display: flex;
+    flex-direction: column;
+
+}
+#content{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-weight:500;
+    font-size:large;
+    margin-bottom: 80px;
+}
+#showcase{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: monospace;
+    font-size: large;
+    margin-bottom: 100px;
+}
+#iconpic{
+    height: 500px;
+    width: 1000px;
+    background-image: url(iconoflove.webp);
+    background-size: cover;
+}
+#love{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 70px;
+    font-family: monospace;
+    font-size:larger;
+    font-weight: 800;
+}
+.aniconoflove{
+    display: flex;
+    flex-direction: row;
+}
+p7{
+    font-style: italic;
+    font-size: xx-large;
+    font-weight: 600;
+    text-decoration:none;
+}
+p8{
+    text-align: center;
+    margin-bottom: 4px;
+    font-style: oblique;
+    font-size: medium;
+    text-decoration:none;
+}
+#el{
+    margin-top: 60px;
+    font-size: x-large;
+    border: 2px solid black;
+}
+#diamond{
+    background-image: url(fromthesource.webp);
+    height: 600px;
+    width: 1800px;
+    background-size:cover;
+}
+#fromthesource{
+    position: absolute;
+    height: 600px;
+    display: flex;
+    justify-content:left;
+    flex-direction: column;
+    align-items: center;
+    margin: left 200px;
+    margin-right: 70px;
+    font-family: monospace;
+    font-size:larger;
+    font-weight: 800;
+    width: 400px;
+    margin-right: 200px;
+    margin-top: 200px;
+}
+.source{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+
+
